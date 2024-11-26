@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
-    <style> .div1{
+    <style>
+     .div1{
         border: 2px solid black;
        background-color: rgb(91, 226, 221);
       
@@ -18,7 +19,7 @@
         flex-wrap: wrap;
 
     }
-    .div1>.div2{
+    .div1>.subdiv{
         border: 2px solid black;
         background-color: antiquewhite;
        
@@ -34,8 +35,9 @@
         top: -90px;
 
     }
-    .div2 .d{
+    .div1 div{
         border: 2px solid black;
+        border-radius: 10px;
         padding: 50px;
         display: flex;
         flex-direction: row;
@@ -45,6 +47,26 @@
         
 
     }
+    .subdiv .div-1{
+      background-image:url(https://www.collinsdictionary.com/images/full/apple_158989157.jpg);
+      background-size: cover;
+    }
+    .subdiv .div-2{
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa3K1PkfEgVzc6JeayE-uGwejpsBDBbVBUw&s);
+      background-size: cover;
+    }
+    .subdiv .div-3{
+      background-image: url(https://img.freepik.com/premium-vector/detailed-pineapple-with-black-outline-vector-fruit-illustration-food-design-projects_1167562-18623.jpg?semt=ais_hybrid);
+      background-size: cover;
+    }
+    .subdiv .div-4{
+      background-image: url(https://img.freepik.com/free-vector/simple-isolated-banana_1308-125007.jpg?semt=ais_hybrid) ;
+    
+      background-size: cover;
+    }
+    
+    
+
     .div1>.div3{
         border: 2px solid black;
         background-color: antiquewhite;
@@ -68,21 +90,80 @@
         display: flex;
 
     }
-  .d2{
+   .div1 .papaya{
+    background-image: url(https://seed2plant.in/cdn/shop/products/papayaseeds.jpg?v=1606739358&width=1500);
+    background-size: cover;
+   }
+
+   .div1 .gova{
+    background-image: url(https://fruitboxco.com/cdn/shop/products/asset_19_600x.jpg?v=1594383262);
+    background-size: cover;
+   }
+
+
+
+    .div1 .grapes{
+      background-image: url(https://i.etsystatic.com/13434992/r/il/a03018/3219595549/il_570xN.3219595549_ju9h.jpg);
+      background-size: cover;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 50px;
+        display: flex;
+        flex-direction: row;
+      
+        justify-content:space-around;
+        flex-wrap: wrap;
+        
+
+    }
+  .grapes{
     flex-grow: 1;
   }
    
+  .div1>.div2{
+        border: 2px solid black;
+        background-color: antiquewhite;
+       
+        padding: 100px;
+        
+        display: flex;
+         flex-basis: 1000px; 
+        flex-direction: row;
+        gap:50px;
+         justify-content: space-around;
+       flex-wrap: wrap;
+      position: relative;
+        top: -90px;
 
+    }
+
+    .div2 .div-5{
+      background-image:url(https://www.collinsdictionary.com/images/full/apple_158989157.jpg);
+      background-size: cover;
+    }
+    .div2 .div-6{
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa3K1PkfEgVzc6JeayE-uGwejpsBDBbVBUw&s);
+      background-size: cover;
+    }
+    .div2 .div-7{
+      background-image: url(https://img.freepik.com/premium-vector/detailed-pineapple-with-black-outline-vector-fruit-illustration-food-design-projects_1167562-18623.jpg?semt=ais_hybrid);
+      background-size: cover;
+    }
+    .div2 .div-8{
+      background-image: url(https://img.freepik.com/free-vector/simple-isolated-banana_1308-125007.jpg?semt=ais_hybrid) ;
+    
+      background-size: cover;
+    }
 
     </style>
 </head>
 <body>
    <div class="div1">
-    <div class="div2">
-     <div class="d"></div>
-     <div class="d"></div>
-     <div class="d"></div>
-     <div class="d"></div>
+    <div class="subdiv">
+     <div class="div-1"></div>
+     <div class="div-2"></div>
+     <div class="div-3"></div>
+     <div class="div-4"></div>
 
      
       
@@ -90,9 +171,9 @@
 
     </div>
     <div class="div3">
-       <div class="d"></div>  
-        <div class="d2"></div>
-        <div class="d"></div>
+       <div class="papaya"></div>  
+        <div class="grapes"></div>
+        <div class="gova"></div>
        
         
          
@@ -101,19 +182,20 @@
        </div>
      
  
-
+    
        
-        <div class="div2">
-         <div class="d"></div>
-         <div class="d"></div>
-         <div class="d"></div>
-         <div class="d"></div>
+        <div class="div2" >
+         <div class="div-5"></div>
+         <div class="div-6"></div>
+         <div class="div-7"></div>
+         <div class="div-8"></div>
     
          
           
     
     
         </div>
+        
 
    </div>
 </body>
