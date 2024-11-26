@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            border: 2px solid blue;
+            width:300px;
+            height:200px ;
+            /* margin:100px 0px 0px 100px; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        @media screen and (min-width:0px) and (max-width:320px){
+            .div1{
+               background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLXje-OO1zZk4aKkcFH5jwq9TF38M4SE-vZw&s);
+               background-size: cover;
+            }
+            
+        }
+
+
+        @media screen and (min-width:320px) and (max-width:500px){
+          .div1{
+           background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToAwXTvHWBlqa4FvGb23lDjC6whpMt9RJW8w&s) ;
+           background-size: cover;
+            height: 200px;
+            width: 200px;
+          }
+        }
+        @media screen and (min-width:502px) and (max-width:700px)
+        {
+          .div1{ 
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqnWhHadkJNUMQRby6ipQDPGTHRgmXM81erg&s);
+            background-size: cover;
+            height: 200px;
+            width: 200px;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+</body>
+</html>
